@@ -20,9 +20,17 @@ The original code ran the analysis on the 2018 stock data in 1.132813 seconds:
 
 ![2018_Original_Speed](https://user-images.githubusercontent.com/107599510/179860561-a80ae301-dc1c-4301-88e6-c5578bb58f36.png)
 
+The refactored code for 2018 ran in 0.125 seconds:
+
+![2018_Refactored_Speed](https://user-images.githubusercontent.com/107599510/179860806-d95ad25c-be7a-40e0-8c9c-3ddcf303a5e6.png)
+
+Just like for the 2017 numbers, it is easier to see the difference in speed by multiplying the results by 1,000.  For 2018, the original code number would be 1,132.813 while the refactored 2018 number is 125.  The refactored code is significantly more efficient than the original code.
 
 ## Summary:
 
 #### What are the advantages or disadvantages of refactoring code?
+There are some clear advantages of refactoring code.  In this example, the speed at which the computer was able to provide the same data improved significantly.  This code can also be used in the future for a different set of stocks or a different year.  There may be a more efficient way to run the code by grouping data or eliminating steps in a loop that allow the outcome to achieve the same goal.
 
-#### How do these pros and cons apply to refactoring the original VBA script?
+As far as disadvantages go, the code can end up being broken and stop working.  It is important to read the code to understand what was happening and to add comments to help you during the refactor process.  It is also very helpful to have good comments from the original coder to assist with refactoring.  
+
+
